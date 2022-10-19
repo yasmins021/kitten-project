@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name=""viewport" content=""width=device-width, initial scale="1.0">
+    <title> Adopt a Kitten </title>
+    <style>
+        body {
+        background-image: url('http://dl6.glitter-graphics.net/pub/606/606506ynkjl9iq9c.gif');
+        background-attachment: fixed;
+        background-repeat: repeat;
+        }
+        h1{
+            text-align: center;
+             border-radius:8px ; 
+            border-width: thick;
+            margin-inline-start: 50px;
+            margin-inline-end: 50px;
+            font-family: monospace;
+            border-style: double ;
+           border-color:#32cd32 ;
+           border-width: 5px;
+        }
+        h2{
+            text-align: center;
+            font-family: monospace;
+          
+         
+        }
+        img{ 
+            display: block;
+            margin:0 auto;
+            max-width: 90%;
+            border-radius:19px;
+            
+         }
+         p{
+             line-height: 1.5;
+             font-size: 19px;
+             margin-right: 20px;
+             margin-left: 20px;
+             font-family:fantasy;
+            
+         }
+         button{
+             display: block;
+             margin: 0 auto;
+             background-color: white;
+             border-radius: 20px;
+             padding:10px;
+             cursor: pointer;
+             font-size: 20px;
+             transition: ease-out;
+             outline:auto;
+             
+
+
+         }
+         button:hover{
+             cursor:pointer;
+             color:BLACK;
+             box-shadow: inset 300px  0 0 0 #FFFF8F
+          
+
+         }
+        .container{
+            max-width:800px;
+            margin: 0 auto;
+            background-color:rgb(251, 203, 230);
+            border-radius: 20px;
+
+         }
+         footer{
+             text-align: center;
+         }
+         
+        </style>
+        </head>
+        <body>
+            <div style= "position:relative;  top:22px;" class="container">
+                <br>
+            <h1>Adopt A Kitten 🧶  </h1>
+            <h2> <span style="font-weight:normal">Save a kitten by welcoming them into your home</span> </h2>
+            <img src="http://dl6.glitter-graphics.net/pub/988/988836qgiyrsbvlm.gif" width=392 height=31.0642px >
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/084/original/this_one.jpg?1652315656" alt="kitten" 
+            width="300" </img>
+            <img src="http://dl6.glitter-graphics.net/pub/988/988836qgiyrsbvlm.gif" width=392 height=31.0642px >
+            
+            <p>Adopting a shelter cat is a rewarding experience. Not only does it bring the enjoyment of caring for a new companion, but it also gives you the joy of knowing you've rescued a cat, your adoption opens a space for that shelter to rescue another cat in need. Following these guidelines will help you make a match that's truly rewarding for both you and your new kitty. </p>
+            <p><a href="https://www.hillspet.com/"><span style="font-size: 15px;">read on hillspet</span></a></p>
+            <button> Adopt Now!</button>
+            <br>
+            <footer>This page was lovingly crafted by <a href="https://www.linkedin.com/in/yasmin-sanchez-ba2a84211/ ">Yasmin Sanchez</a></footer>
+            <br>
+   
+            
+                </div>
+                <script>
+                    
+      function info() {
+        let name = prompt("What is your name?");
+        let email = prompt("Thanks " + name + "! What is your email?");
+
+        if (name) {
+          let response = alert(
+            "A link has been sent to your email. Appreciate your support " +
+              name +
+              "! 💖  "
+          );
+        } else {
+          alert(" Sorry we're going to need an email 😞");
+        }
+      }
+
+    
+               
+
+                    
+                    let button = document.querySelector("button");
+      button.addEventListener("click", info);
+    </script>
+</body>
+</html>
