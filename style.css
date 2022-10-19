@@ -1,0 +1,68 @@
+body {
+    background-image: url('http://dl6.glitter-graphics.net/pub/606/606506ynkjl9iq9c.gif');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    }
+    h1{
+        text-align: center;
+         border-radius:8px ; 
+        border-width: thick;
+        margin-inline-start: 50px;
+        margin-inline-end: 50px;
+        font-family: monospace;
+        border-style: double ;
+       border-color:#32cd32 ;
+       border-width: 5px;
+    }
+    h2{
+        text-align: center;
+        font-family: monospace;
+      
+     
+    }
+    img{ 
+        display: block;
+        margin:0 auto;
+        max-width: 90%;
+        border-radius:19px;
+        
+     }
+     p{
+         line-height: 1.5;
+         font-size: 19px;
+         margin-right: 20px;
+         margin-left: 20px;
+         font-family:fantasy;
+        
+     }
+     button{
+         display: block;
+         margin: 0 auto;
+         background-color: white;
+         border-radius: 20px;
+         padding:10px;
+         cursor: pointer;
+         font-size: 20px;
+         transition: ease-out;
+         outline:auto;
+         
+
+
+     }
+     button:hover{
+         cursor:pointer;
+         color:BLACK;
+         box-shadow: inset 300px  0 0 0 #FFFF8F
+      
+
+     }
+    .container{
+        max-width:800px;
+        margin: 0 auto;
+        background-color:rgb(251, 203, 230);
+        border-radius: 20px;
+
+     }
+     footer{
+         text-align: center;
+     }
